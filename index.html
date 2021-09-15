@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".fa-search").click(function () {
+                $(".icon").toggleClass("active");
+                $("input[type='text']").toggleClass("active");
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                XStore.net
+            </div>
+            <div class="nav-items">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="search" onfocus="this.value=''">
+                <div class="icon">
+                    <i class="fa fa-search"></i>
+
+                </div>
+
+            </div>
+        </nav>
+        <div class="mid">
+            <img class="embed-responsive" src="img/image2.jpg" alt="image">
+            <div class="hero">
+                <h2 class="text-dark display-4 font-weight-bold hero1">Simple Cloud Hosting</h2>
+                <h2 class="text-dark display-4 font-weight-bold hero1">built<u> for developers</u></h2>
+                <p class="text-dark p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores nisi cum
+                    commodi quasi debitis sunt explicabo, tempora dignissimos odio aliquam aperiam molestiae rerum fuga
+                    velit laudantium ducimus. Iste, aliquid nesciunt.</p>
+                <a href="#">start now</a>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+
+
+    </header>
+    <section class="features container my-5">
+        <div class="row">
+            <div class="one w-25 text-center align-items-center col-lg-4 col-md-6 col-12 mb-5">
+               <img class="img-fluid img1" src="img/spreadsheet-app.png" alt="">
+                <h3><strong>SEO Consulting</strong></h3>
+                <p class="pt-3 p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis itaque iste odit! Fugiat aperiam,
+                    excepturi eos quo incidunt quaerat, in maxime voluptas, animi explicabo qui tempora esse molestias
+                    ipsum optio.</p>
+
+            </div>
+            <div class="one w-25 text-center align-items-center col-lg-4 col-md-6 col-12 mb-5">
+                <img class="img-fluid img1" src="img/social.png" alt="">
+                 <h3><strong>Special Offer</strong></h3>
+                 <p class="pt-3 p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis itaque iste odit! Fugiat aperiam,
+                     excepturi eos quo incidunt quaerat, in maxime voluptas, animi explicabo qui tempora esse molestias
+                     ipsum optio.</p>
+ 
+             </div>
+             <div class="one w-25 text-center align-items-center col-lg-4 col-md-6 col-12 mb-5">
+                <img class="img-fluid img1" src="img/slack.png" alt="">
+                 <h3><strong>Innovations</strong></h3>
+                 <p class="pt-3 p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis itaque iste odit! Fugiat aperiam,
+                     excepturi eos quo incidunt quaerat, in maxime voluptas, animi explicabo qui tempora esse molestias
+                     ipsum optio.</p>
+ 
+             </div>
+             <div class="one w-25 text-center align-items-center col-lg-4 col-md-6 col-12 mb-5">
+                <img class="img-fluid img1" src="img/app-store.png" alt="">
+                 <h3><strong>Security Solutions</strong></h3>
+                 <p class="pt-3 p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis itaque iste odit! Fugiat aperiam,
+                     excepturi eos quo incidunt quaerat, in maxime voluptas, animi explicabo qui tempora esse molestias
+                     ipsum optio.</p>
+ 
+             </div>
+
+        </div>
+    </section>
+    <hr class="container mx-auto">
+    <section class="about container my-5">
+        <h1 class="text2 pt-5 text-center">Hostings Plans</h1>
+        <p class="mx-auto w-75 py-2 text-center p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti fuga, exercitationem, eius quas hic omnis non nostrum inventore, soluta nisi. Quia accusantium corporis voluptatum, eius quisquam reiciendis voluptatibus accusamus?</p>
+        <div class="columns">
+            <ul class="price">
+              <li class="header">Personal Pack</li>
+              <img class="img3" src="img/user-icon.png" alt="User">
+              <li class="grey"><strong>$ 29 / year</strong></li>
+              <p class="mx-auto w-75 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a modi architecto hic, beatae aspernatur et</p>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="grey"><a href="#" class="button">Start now</a></li>
+            </ul>
+          </div>
+          <div class="columns">
+            <ul class="price">
+              <li class="header">Enterprise Pack</li>
+              <img class="img3" src="img/selection.png" alt="User">
+              <li class="grey"><strong>$ 39 / year</strong></li>
+              <p class="mx-auto w-75 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a modi architecto hic, beatae aspernatur et</p>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="grey"><a href="#" class="button">Start now</a></li>
+            </ul>
+          </div>
+          <div class="columns">
+            <ul class="price">
+              <li class="header">Premium Pack</li>
+              <img class="img3" src="img/humanity.png" alt="User">
+              <li class="grey"><strong>$ 69 / year</strong></li>
+              <p class="mx-auto w-75 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a modi architecto hic, beatae aspernatur et</p>
+              <li>10GB Storage</li>
+              <li>10 Emails</li>
+              <li>10 Domains</li>
+              <li>1GB Bandwidth</li>
+              <li class="grey"><a href="#" class="button">Start now</a></li>
+            </ul>
+          </div>
+
+    </section>
+    <!-- <hr class="container  my-5"> -->
+    <div class="container my-5 b1">
+        <div class="row align-items-center my-5 b2">
+            <div class="content  col-lg-6 col-md-6 col-12 p-4 b3">
+                <h2><strong> Approach for you</strong></h2>
+                <h2>and your compnay needs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem similique consectetur quasi aliquid deleniti, optio harum in. Nostrum, aut eligendi!
+                </p>
+                <a class="btn" href="" type="button">Get Started</a>
+            </div>
+            <div class="img col-lg-6 col-md-6 col-12 p-4">
+                <img class="img-fluid w-100" src="img/Image035.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="row align-items-center my-5 b2">
+             <div class="img col-lg-6 col-md-6 col-12 p-4">
+                <img class="img-fluid w-100" src="img/Image337.jpg" alt="">
+            </div>
+
+            <div class="content  col-lg-6 col-md-6 col-12 p-4 b3">
+                <h2><strong> Approach for you</strong></h2>
+                <h2>and your compnay needs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem similique consectetur quasi aliquid deleniti, optio harum in. Nostrum, aut eligendi!
+                </p>
+                <a class="btn" href="" type="button">Get Started</a>
+            </div>
+           
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
